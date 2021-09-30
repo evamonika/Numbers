@@ -6,12 +6,7 @@ using namespace std;
 // Function to calculate the factorial of any number
 int factorial(int n)
 {
-	int fact = 1;
-	while (n != 0) {
-		fact = fact * n;
-		n--;
-	}
-	return fact;
+	return (n == 1 || n == 0) ? 1: n*factorial(n-1);
 }
 
 // Function to check if number is krishnamurthy
