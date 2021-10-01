@@ -10,7 +10,7 @@ public class HappyNumber
 		int y=x;
 		while(true)
 		{
-			if(y<10 && y==1)
+			if(y==1)
 			{
 				System.out.println("The Number "+x+" is a Happy Number");
 				break;
